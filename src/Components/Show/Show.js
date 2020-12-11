@@ -27,7 +27,7 @@ class Body extends React.Component{
             this.setState({
                 id:this.state.id
             },()=>{        
-                this.state.id[0].map((ele,index)=>{
+                this.state.id[0].forEach((ele,index)=>{
                 if(index<30){
                 Axios.get(`https://hacker-news.firebaseio.com/v0/item/${ele}.json?print=pretty`)
                 .then(res=>
