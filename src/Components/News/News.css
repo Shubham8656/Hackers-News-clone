@@ -13,6 +13,7 @@
 #title{
     margin-right: 3%;
     letter-spacing: 0.5px;
+    text-align: start;
 }
 #title > a{
     color: black;
@@ -36,4 +37,16 @@
 #by,#time{
     /* color: grey; */
     font-weight: 400;
+}
+@media (max-width:900px)
+{
+    .info{
+        width: 70%;
+    }
+}
+@media (max-width:500px)
+{
+    .info{
+        width: 80%;
+    }
 }
