@@ -1,1 +1,3 @@
-Project URL - https://sad-hermann-2ba415.netlify.app/
+# Hackers News Clone
+
+Project URL - https://hackers-news-clone.netlify.app/
