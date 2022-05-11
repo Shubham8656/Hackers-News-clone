@@ -5,6 +5,8 @@
     text-align: center;
     height: 60px;
     font-size: 90%;
+    position: sticky;
+    top:0;
 }
 .header ul{
     list-style-type: none;
